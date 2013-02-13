@@ -1,0 +1,168 @@
+﻿
+
+/* --------------------- Main Style ---------------------- */
+html 
+{
+    height:100%; 
+    overflow: -moz-scrollbars-vertical;
+}
+
+body {
+
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#container {
+   margin: 0px auto;
+   text-align: left;
+   width: 692px; 
+   min-height:760px;
+}
+/* -------------------------------------------------------- */
+
+
+
+
+/* --------------------- Text Style ---------------------- */
+.text {
+	font: 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	/*color: #6F706B;*/
+	color: #575B48;
+	margin-bottom: 10px;
+}
+
+.linktext
+{
+    background: url(../../images/bullet.gif) no-repeat 2px 2px;
+    padding-left:15px; 
+    padding-bottom:5px;
+    font: 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color: #617F8A;
+}
+
+.gridSelectText
+{
+    font: 11px/18px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.formLegend
+{
+    padding-left:5px;
+    padding-right:10px;
+    font: 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color: #617F8A; 
+	font-weight:bolder;
+}
+
+.formtext
+{
+    padding-bottom:15px;
+    font: 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color: #617F8A;
+}
+/* -------------------------------------------------------- */
+
+
+
+/* ------------------ Content Area Style ------------------ */
+#content {
+	width: 479px;
+	float: left;
+	padding: 15px 15px 10px 100px; 
+}
+
+#content h2 {
+	font: normal 18px Arial, Times New Roman, Times, serif;
+	color: #617F8A;	
+	padding: 0 0 0 0; 
+	font-weight:bold;
+}
+
+#content a:link, a:visited {
+	color: #2878C3;
+ 	text-decoration: none;
+}
+
+#content a:hover {
+	color: #155694;
+	border-bottom: 1px dotted #155694;
+}
+
+#content #pics a:hover {
+	color: #155694;
+	border-bottom: none;
+}
+/* ------------------------------------------------------- */
+
+
+
+/* ------------------- Form Style ----------------------- */
+
+.validationSummary 
+{
+    padding-left:100px;
+    padding-bottom:3px;
+    font:12px/18px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.validationEventsSummary
+{
+    padding-left:50px;
+    font:12px/18px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.form { 
+    color:#FEE8B6; 
+    background-color:#FBFBDB;
+    border-color:#D2B48C; 
+    border-style:solid; 
+    border-width:1px; 
+}
+
+.formHeader {
+    height:25px;
+    font-family:Arial;
+    color:#617F8A;
+    background-color:#C0D9BB; 
+    border-bottom-color:#D2B48C;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+}
+
+.messageText {
+	font:11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#6F706B; 
+	padding:14px;
+}
+
+.formField {
+   font:11px/18px Verdana, Arial, Helvetica, sans-serif;
+   color:#6F706B;
+   padding-left:25px;
+   padding-bottom:10px;
+}
+
+#formLabel  {
+    color:#6F706B;
+    font-style:italic; 
+    font-size:smaller; 
+    padding-left:25px; 
+}
+
+.mainFormFooter {
+    padding-left:62px; 
+    padding-bottom:3px; 
+    padding-top:3px; 
+    background-color:#C0D9BB; 
+    border-top-color:#D2B48C; 
+    border-top-style:solid; 
+    border-top-width:1px;
+}
+
